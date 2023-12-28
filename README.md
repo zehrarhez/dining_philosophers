@@ -1,5 +1,5 @@
 ## DINING PHILOSOPHERS PROBLEM PROJECT
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Dining_philosophers.svg" alt="dining-philosophers" width=250>
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Ftopics%2Fphilosophers-dinner-problem%3Fo%3Ddesc%26s%3Dupdated&psig=AOvVaw0MRbqE-cdFQubpps6GNBFa&ust=1703829268244000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLjhnOm4sYMDFQAAAAAdAAAAABAD" alt="dining-philosophers" width=250>
 
 
 <!-- TABLE OF CONTENTS -->
