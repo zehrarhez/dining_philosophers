@@ -1,5 +1,5 @@
 ## DINING PHILOSOPHERS PROBLEM PROJECT
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fnlp.nd.edu%2Fjustin%2Fdining%2FDiningPhilosophers%2FPPPP%2Fintro.php&psig=AOvVaw0MRbqE-cdFQubpps6GNBFa&ust=1703829268244000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLjhnOm4sYMDFQAAAAAdAAAAABAU" alt="dining-philosophers" width=250>
+<img src="https://user-images.githubusercontent.com/61487831/125204793-2d29da00-e2a9-11eb-9a44-e0ba8d48bed1.gif" alt="dining-philosophers" width=250>
 
 
 <!-- TABLE OF CONTENTS -->
@@ -75,11 +75,8 @@ Project Link: [Insurance Amount Prediction Project](https://github.com/zehrarhez
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [Exploratory Data Analysis](https://www.geeksforgeeks.org/what-is-exploratory-data-analysis/)
-* [Preprocessing the Data](https://www.geeksforgeeks.org/data-preprocessing-machine-learning-python/)
-* [Cross Validation](https://scikit-learn.org/stable/modules/cross_validation.html)
-* [Hyperparameter Tuning](https://www.geeksforgeeks.org/hyperparameter-tuning/)
-* [Grid Search & Randomized Search](https://www.geeksforgeeks.org/comparing-randomized-search-and-grid-search-for-hyperparameter-estimation-in-scikit-learn/)
+* [Dining Philosophers Alternative Solutions](https://bilgisayarkavramlari.com/2012/01/22/filozoflarin-aksam-yemegi-dining-philosophers/)
+
   
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
