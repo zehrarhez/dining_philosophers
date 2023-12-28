@@ -1,5 +1,5 @@
 ## DINING PHILOSOPHERS PROBLEM PROJECT
-<img src="https://user-images.githubusercontent.com/61487831/125204793-2d29da00-e2a9-11eb-9a44-e0ba8d48bed1.gif" alt="dining-philosophers" width=250>
+<img src="https://user-images.githubusercontent.com/61487831/125204793-2d29da00-e2a9-11eb-9a44-e0ba8d48bed1.gif" alt="dining-philosophers" width=400>
 
 
 <!-- TABLE OF CONTENTS -->
