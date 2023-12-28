@@ -43,7 +43,7 @@ Another problem encountered in the problem is deadlock. As a result of a wrong d
 ### Time Out Approach
 ![image](https://github.com/zehrarhez/dining_philosophers/assets/86465805/d569fa1b-1627-4a4f-9f0a-a306df3fd6a0)
 
-#a) Timeout for Fork Acquisition:
+a) Timeout for Fork Acquisition:
 
 Philosophers try to acquire both their left and right forks. If a philosopher can't acquire both forks after a certain time (timeout), they release the acquired forks and start thinking again. This prevents a philosopher from waiting indefinitely for a fork and allows others to use it.
 
