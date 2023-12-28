@@ -1,7 +1,3 @@
-# Onur YAŞAR - 190315031
-# Zehra ÖZEREN - 200315034
-# Furkan ERYILMAZ - 190315043
-# Sinem GENÇER - 200315051
 import threading
 import random
 import time
