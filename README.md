@@ -9,6 +9,9 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#dining-philosophers-problem">Dining Philosophers Problem</a></li>
+        <li><a href="#time-out-approach">Time Out Approach</a></li>
+        <li><a href="#effects-of-time-out-approach">Effects of Time Out Approach</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
@@ -36,11 +39,30 @@ According to this problem, if all philosophers take the stick on their right, fo
 
 Another problem encountered in the problem is deadlock. As a result of a wrong design, a philosopher who takes a single fork and waits for the other philosopher to leave the fork can crash the system. This is the second risk found in the problem.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Time Out Approach
 
+a) Timeout for Fork Acquisition:
+Philosophers try to acquire both their left and right forks. If a philosopher can't acquire both forks after a certain time (timeout), they release the acquired forks and start thinking again. This prevents a philosopher from waiting indefinitely for a fork and allows others to use it.
+b) Randomized Delay:
+Introducing a random delay before retrying to acquire forks helps avoid simultaneous attempts by adjacent philosophers, reducing contention.
+c) Asymmetric Requesting:
+Philosophers could be programmed to request the right fork first and then the left one. This can break the circular dependency that leads to deadlock.
 
-## Built With
+### Effects of Time Out Approach
+
+a) Prevents Deadlock:
+By releasing forks after a timeout, it prevents situations where philosophers are indefinitely waiting for a resource held by another philosopher.
+b) Reduces Livelock:
+Livelock occurs when philosophers keep releasing and reacquiring forks, unable to make progress. The timeout approach mitigates this by allowing a philosopher to abandon the attempt and think again.
+c) Potential Starvation:
+There's a risk that a philosopher might starve if the timeout is too short or if the delay mechanism favors other philosophers more frequently.
+d) Increased Overhead:
+Implementing timeouts and delays adds computational overhead, potentially affecting the efficiency of the solution.
+e) Dependency on Timeout Duration:
+The effectiveness of the solution heavily relies on the chosen timeout duration. A longer timeout might reduce contention but could increase the likelihood of starvation.
+
+### Built With
 
 <!-- Embedded Python Logo -->
 <img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png" alt="Python Logo" width="200"/>
@@ -66,7 +88,7 @@ timeout_solution.py
 
 Zehra ÖZEREN - zehrarhezz9@gmail.com
 
-Project Link: [Insurance Amount Prediction Project](https://github.com/zehrarhez/insurance-prediction-GBM)
+Project Link: [Dining Philosophers Problem](https://github.com/zehrarhez/dining_philosophers/tree/main)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
