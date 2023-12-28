@@ -82,9 +82,6 @@ The effectiveness of the solution heavily relies on the chosen timeout duration.
 <!-- Embedded Python Logo -->
 <img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png" alt="Python Logo" width="200"/>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -95,8 +92,6 @@ Download the .py file and run
 timeout_solution.py
 ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- CONTACT -->
 ## Contact
@@ -104,8 +99,6 @@ timeout_solution.py
 Zehra ÖZEREN - zehrarhezz9@gmail.com
 
 Project Link: [Dining Philosophers Problem](https://github.com/zehrarhez/dining_philosophers/tree/main)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
