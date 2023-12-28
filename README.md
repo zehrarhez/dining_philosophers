@@ -41,25 +41,40 @@ Another problem encountered in the problem is deadlock. As a result of a wrong d
 
 
 ### Time Out Approach
+![image](https://github.com/zehrarhez/dining_philosophers/assets/86465805/d569fa1b-1627-4a4f-9f0a-a306df3fd6a0)
 
 a) Timeout for Fork Acquisition:
+
 Philosophers try to acquire both their left and right forks. If a philosopher can't acquire both forks after a certain time (timeout), they release the acquired forks and start thinking again. This prevents a philosopher from waiting indefinitely for a fork and allows others to use it.
+
 b) Randomized Delay:
+
 Introducing a random delay before retrying to acquire forks helps avoid simultaneous attempts by adjacent philosophers, reducing contention.
+
 c) Asymmetric Requesting:
+
 Philosophers could be programmed to request the right fork first and then the left one. This can break the circular dependency that leads to deadlock.
 
 ### Effects of Time Out Approach
 
 a) Prevents Deadlock:
+
 By releasing forks after a timeout, it prevents situations where philosophers are indefinitely waiting for a resource held by another philosopher.
+
 b) Reduces Livelock:
+
 Livelock occurs when philosophers keep releasing and reacquiring forks, unable to make progress. The timeout approach mitigates this by allowing a philosopher to abandon the attempt and think again.
+
 c) Potential Starvation:
+
 There's a risk that a philosopher might starve if the timeout is too short or if the delay mechanism favors other philosophers more frequently.
+
 d) Increased Overhead:
+
 Implementing timeouts and delays adds computational overhead, potentially affecting the efficiency of the solution.
+
 e) Dependency on Timeout Duration:
+
 The effectiveness of the solution heavily relies on the chosen timeout duration. A longer timeout might reduce contention but could increase the likelihood of starvation.
 
 ### Built With
